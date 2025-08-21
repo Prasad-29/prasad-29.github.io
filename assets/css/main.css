@@ -349,6 +349,40 @@ h6 {
   background-color: rgba(33, 37, 41, 0.03);
 }
 
+/* Fix nav menu dots */
+.navmenu ul,
+.navmenu ul li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Resume button styles */
+.resume-btn {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.btn-resume {
+  display: inline-block;
+  padding: 8px 18px;
+  background: var(--accent-color);
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-resume:hover {
+  background: #007b7f;
+  color: #fff;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
